@@ -168,18 +168,17 @@ $ ```git branch -d clean_up```
 $ ```git push```
 
 ## Quick Wins
-Content, not files
-Opt-in, not opt-out
-Open, not locked
-Distributed, not centralized
-Conversations, not cut-offs
-People, not tools
-Journal, not backup
-Anywhere, not just online
+* **Content**, not files
+* **Opt-in**, not opt-out
+* **Open**, not locked
+* **Distributed**, not centralized
+* **Conversations**, not cut-offs
+* **People**, not tools
+* **Journal**, not backup
+* **Anywhere**, not just online
 
 ## Fancy
-git log --graph --decorate --abbrev-commit --all --pretty=oneline
-(option switches)
+$ ```git log --graph --decorate --abbrev-commit --all --pretty=oneline```
 
 ## Cheat
 * http://www.markus-gattol.name/misc/mm/si/content/git_workflow_and_cheat_sheet.png
