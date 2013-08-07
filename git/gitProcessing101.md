@@ -97,6 +97,9 @@ same files == version nightmare
 * copy ```HTTPS clone URL```
 * Open Terminal
 
+## Set Up Git
+[Configure](https://help.github.com/articles/set-up-git) Username, Email and Password caching settings
+
 ### Clone repo.
 git clone (HTTPS clone URL)<br>
 $ ```git clone https://github.com/earth2travis/processing.git```
