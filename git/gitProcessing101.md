@@ -90,7 +90,8 @@ same files == version nightmare
 * copy HTTPS clone URL
 * Open Terminal
 
-### Clone repo. (replace HTTPS clone URL)
+### Clone repo.
+git clone (HTTPS clone URL)<br>
 $ ```git clone https://github.com/earth2travis/processing.git```
 
 ### See current state of project.
@@ -136,7 +137,7 @@ $ ```git diff --staged```
 $ ```git reset octofamily/octodog.txt```
 
 ### Undo changes back to last commit.
-git checkout -- <target>
+git checkout -- (target)
 
 $ ```git checkout -- octocat.txt```
 
@@ -184,7 +185,7 @@ $ ```git push```
 $ ```git log --graph --decorate --abbrev-commit --all --pretty=oneline```
 
 ## Cheat
-* [Git Workflow and its commands…]	(http://www.markus-gattol.name/misc/mm/si/content/git_workflow_and_cheat_sheet.png)
+* [Git Workflow and its commands…](http://www.markus-gattol.name/misc/mm/si/content/git_workflow_and_cheat_sheet.png)
 
 ## Learn Free
 * Git in your browser with [Try Git](http://try.github.com).
