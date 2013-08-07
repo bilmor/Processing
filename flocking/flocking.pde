@@ -10,7 +10,7 @@ void setup() {
 }
 
 void draw() {
-  background(50);
+  background(153, 204, 255);
   flock.run();
 }
 
