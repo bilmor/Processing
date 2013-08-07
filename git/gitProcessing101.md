@@ -78,89 +78,94 @@ same files == version nightmare
 * GUI
 * Social Coding
 
+### Sign up for [GitHub](https://github.com)
+
 ## Installer
 * [Downloads](http://git-scm.com/downloads)
 
 ## Exercise
-Go to sketch directory.
-$ cd 
 
-Initialize a Git repository.
-$ git init
-empty repository in /.git/
+* create processing repository on GitHub
+* copy HTTPS clone URL
+* Open Terminal
 
-See current state of project.
-$ git status
+### Clone repo. (replace HTTPS clone URL)
+$ ```git clone https://github.com/earth2travis/processing.git```
 
-To start tracking changes made to octocat.txt, add it to the staging area.
-$ git add octocat.txt
+### See current state of project.
+$ ```git status```
 
-Move changes to repository running commit command and describing changes.
-$ git commit -m "Add cute octocat story"
+### To start tracking changes made to octocat.txt, add it to the staging area.
+$ ```git add octocat.txt```
 
-Use wildcards for adding many files of same type.
-$ git add '*.txt'
+### Move changes to repository running commit command and describing changes.
+$ ```git commit -m "Add cute octocat story"```
 
-Browse updates with journal of what has changed.
-$ git log
+### Use wildcards for adding many files of same type.
+$ ```git add '*.txt'```
 
-Push local files to server by adding remote repository.
-Remote name:
-Repository URL: https://github.com/try-git/try_git.git
-$ git remote add origin https://github.com/try-git/try_git.git
+### Browse updates with journal of what has changed.
+$ ```git log```
 
-The push command tells Git where to put our commits.
-remote (repo): origin
-local (branch): master
--u: Remember parameters, so git push remembers what to do.
-$ git push -u origin master
+### Push local files to server by adding remote repository.
+* Remote name: origin
+* Repository URL: https://github.com/try-git/try_git.git
 
-Check for changes on repository and pull down updates. 
-$ git pull origin master
+$ ```git remote add origin https://github.com/try-git/try_git.git```
 
-Lookat what is different from our last commit.
-pointer: HEAD
-Pointers hold positions within different commits. By default HEAD points to your most recent commit.
-$ git diff HEAD
+### Push tells Git where to put our commits.
+* Remote (repo): origin
+* Local (branch): master
+* -u: Remember parameters, so git push remembers what to do.
+$ ```git push -u origin master```
 
-Look at changes in files alreadystaged.
-$ git diff --staged
+### Check for changes on repository and pull down updates. 
+$ ```git pull origin master```
 
-Unstage files.
-$ git reset octofamily/octodog.txt
+### View changes since last commit.
+* Pointers hold positions within different commits.
+* By default HEAD points to your most recent commit.
+$ ```git diff HEAD```
 
-Undo changes back to how they were at last commit.
-git checkout -- <target>
-$ git checkout -- octocat.txt
+### Look at changes in files already staged.
+$ ```git diff --staged```
 
-Create branch to add feature or fix bug.
-$ git branch clean_up
+### Unstage files.
+$ ```git reset octofamily/octodog.txt```
 
-See branches.
-$ git branch
+### Undo changes back to last commit.
+git checkout -- <target><br>
+$ ```git checkout -- octocat.txt```
 
-Switch branches.
-$ git checkout clean_up
+### Create branch to add feature or fix bug.
+$ ```git branch clean_up```
 
-Remove filesand stage the removal.
-$ git rm '*.txt'
+### See branches.
+$ ```git branch```
 
-Check changes.
-$ git status
-Commit changes.
-$ git commit -m "Remove all the cats"
+### Switch branches.
+$ ```git checkout clean_up```
 
-Switch back to master branch.
-$ git checkout master
+### Remove files and stage removal.
+$ ```git rm '*.txt'```
 
-Merge changes from clean_up branch into master branch.
-$ git merge clean_up
+### Check changes.
+$ ```git status```
 
-Delete clean_up branch.
-$ git branch -d clean_up
+### Commit changes.
+$ ```git commit -m "Remove all the cats"```
 
-Push everything to remote repository.
-$ git push
+### Switch back to master branch.
+$ ```git checkout master```
+
+### Merge changes from clean_up branch into master branch.
+$ ```git merge clean_up```
+
+### Delete clean_up branch.
+$ ```git branch -d clean_up```
+
+### Push to remote repository.
+$ ```git push```
 
 ## Quick Wins
 Content, not files
