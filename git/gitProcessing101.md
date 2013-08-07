@@ -93,8 +93,8 @@ same files == version nightmare
 
 ## Exercise
 
-* create processing repository on GitHub
-* copy HTTPS clone URL
+* create ```processing``` repository on GitHub
+* copy ```HTTPS clone URL```
 * Open Terminal
 
 ### Clone repo.
