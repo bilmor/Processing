@@ -58,7 +58,8 @@ same files == version nightmare
 ## Open Source
 
 <blockquote>
-  <p>open source as a philosophy promotes a universal access via free license to a product's design or blueprint, and b) universal redistribution of that design or blueprint, including subsequent improvements to it by anyone.</p>
+  <p>open source as a philosophy promotes a universal access via free license to a product's design or blueprint<br>
+  	and universal redistribution of that design or blueprint, including subsequent improvements to it by anyone.</p>
   <small><cite title="Wikipedia">Wikipedia</cite></small>
 </blockquote>
 
