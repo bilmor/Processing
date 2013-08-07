@@ -1,16 +1,18 @@
 Flock flock;
 
-PImage bg;
 void setup() {
-size(1000, 563);
-bg = loadImage("trees.jpg");
-flock = new Flock();
-// Add an initial set of boids into the system
-for (int i = 0; i < 150; i++) {
-flock.addBoid(new Boid(width/2,height/2));}}
+  size(displayWidth, displayHeight);
+  flock = new Flock();
+  // Add an initial set of boids into the system
+  for (int i = 0; i < 150; i++) {
+    flock.addBoid(new Boid(width/2,height/2));
+  }
+}
+
 void draw() {
-background(bg);
-flock.run();}
+  background(50);
+  flock.run();
+}
 
 // Add a new boid into the System
 void mousePressed() {
