@@ -181,6 +181,9 @@ $ ```git branch -d clean_up```
 ### Push to remote repository.
 $ ```git push```
 
+## Fancy
+$ ```git log --graph --decorate --abbrev-commit --all --pretty=oneline```
+
 ## Quick Wins
 * **Content**, not files
 * **Opt-in**, not opt-out
@@ -191,12 +194,6 @@ $ ```git push```
 * **Journal**, not backup
 * **Anywhere**, not just online
 
-## Fancy
-$ ```git log --graph --decorate --abbrev-commit --all --pretty=oneline```
-
-## Cheat
-* [Git Workflow and its commands…](http://www.markus-gattol.name/misc/mm/si/content/git_workflow_and_cheat_sheet.png)
-
 ## Learn Free
 * Git in your browser with [Try Git](http://try.github.com).
 * [Pro Git](http://git-scm.com/book) by Scott Chacon is available online.
@@ -205,6 +202,9 @@ $ ```git log --graph --decorate --abbrev-commit --all --pretty=oneline```
 ### Code School
 * [Git Real](http://www.codeschool.com/courses/git-real)
 * [Git Real 2](http://www.codeschool.com/courses/git-real-2)
+
+## Cheat
+* [Git Workflow and its commands…](http://www.markus-gattol.name/misc/mm/si/content/git_workflow_and_cheat_sheet.png)
 
 ## Resources
 * http://en.wikipedia.org/wiki/Git_(software)
