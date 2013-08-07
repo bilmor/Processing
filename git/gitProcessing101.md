@@ -117,6 +117,7 @@ $ ```git remote add origin https://github.com/try-git/try_git.git```
 * Remote (repo): origin
 * Local (branch): master
 * -u: Remember parameters, so git push remembers what to do.
+
 $ ```git push -u origin master```
 
 ### Check for changes on repository and pull down updates. 
@@ -134,7 +135,8 @@ $ ```git diff --staged```
 $ ```git reset octofamily/octodog.txt```
 
 ### Undo changes back to last commit.
-git checkout -- <target><br>
+git checkout -- <target>
+
 $ ```git checkout -- octocat.txt```
 
 ### Create branch to add feature or fix bug.
