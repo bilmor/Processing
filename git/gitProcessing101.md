@@ -16,7 +16,7 @@ save and share
 * FTP
 * Copies
 
-Don't make copies of sketches.<br>
+Do not make copies of sketches.<br>
 Make commits @ logical stopping points!
 
 ## Collaboration
@@ -51,7 +51,12 @@ same files == version nightmare
 ## Priority
 * Performance
 
-## Design Criteria:
+<blockquote>
+  <p>His goal was for patches to take three seconds.</p>
+  <small><cite title="Wikipedia">Wikipedia</cite></small>
+</blockquote>
+
+## Design Criteria
 * Opposite of Concurrent Versions System (CVS)
 * Distributed workflow
 * Safeguard against corruption
