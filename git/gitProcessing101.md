@@ -181,10 +181,10 @@ $ ```git push```
 $ ```git log --graph --decorate --abbrev-commit --all --pretty=oneline```
 
 ## Cheat
-* http://www.markus-gattol.name/misc/mm/si/content/git_workflow_and_cheat_sheet.png
+* [Git Workflow and its commands…]	(http://www.markus-gattol.name/misc/mm/si/content/git_workflow_and_cheat_sheet.png)
 
 ## Learn Free
-* Git in your browser with[Try Git](http://try.github.com).
+* Git in your browser with [Try Git](http://try.github.com).
 * [Pro Git](http://git-scm.com/book) by Scott Chacon is available online.
 
 ## Learn More
