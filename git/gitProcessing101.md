@@ -16,12 +16,13 @@ save and share
 * FTP
 * Copies
 
-Don't make copies of sketches. Make commits! (@ logical stopping points)
+Don't make copies of sketches.<br>
+Make commits @ logical stopping points!
 
 ## Collaboration
 same files == version nightmare
 
-* Differrent times
+* Different times
 * Some overlaps
 
 ## Revision History
