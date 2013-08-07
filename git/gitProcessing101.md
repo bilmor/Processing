@@ -116,7 +116,7 @@ $ ```git remote add origin https://github.com/try-git/try_git.git```
 ### Push tells Git where to put our commits.
 * Remote (repo): origin
 * Local (branch): master
-* -u: Remember parameters, so git push remembers what to do.
+* -u: Remember parameters, for origin and master.
 
 $ ```git push -u origin master```
 
