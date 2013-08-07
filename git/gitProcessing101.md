@@ -97,8 +97,8 @@ same files == version nightmare
 * copy ```HTTPS clone URL```
 * Open Terminal
 
-## Set Up Git
-[Configure](https://help.github.com/articles/set-up-git) Username, Email and Password caching settings
+### Set Up Git
+[Configure](https://help.github.com/articles/set-up-git) Username, Email and Password caching settings.
 
 ### Clone repo.
 git clone (HTTPS clone URL)<br>
@@ -214,5 +214,6 @@ $ ```git log --graph --decorate --abbrev-commit --all --pretty=oneline```
 
 ## Next Steps
 * https://github.com/b-g/processing-sublime
+* http://processingjs.org/learning/topic/flocking/
 
 ## Attribution
