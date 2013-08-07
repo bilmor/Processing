@@ -47,7 +47,8 @@ same files == version nightmare
 * copyright holder of BitKeeper withdrew free use of product
 * Linus Torvalds (core developer Linux) builds something better
 
-## Priority: Performance
+## Priority
+* Performance
 
 ## Design Criteria:
 * Opposite of Concurrent Versions System (CVS)
@@ -69,7 +70,8 @@ same files == version nightmare
 * Arduino
 * SuperCollider
 
-[Open Source Initiative](http://opensource.org/osd) (OSI)
+### [OpenProcessing](http://openprocessing.org/)
+### [Open Source Initiative](http://opensource.org/osd) (OSI)
 
 ## GitHub
 * GUI
