@@ -5,12 +5,14 @@
 * fast.
 * scalable.
 
-save and share
+## Save and Share
 
-* Every directory is repository with history and version tracking.
+* Every directory is repository.
+	* history and version tracking
 * Not dependent on network access or central server.
 	* connectivity != blocker
-* Free software distributed under GNU General Public License version 2.
+* Free software.
+	* GNU General Public License version 2
 
 ## Back in the day
 * FTP
