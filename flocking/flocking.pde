@@ -11,7 +11,7 @@ void setup() {
 
 void draw() {
   background(153,204,255);
-  println("some stuff");
+  println("some more stuff");
   flock.run();
 }
 
