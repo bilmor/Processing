@@ -7,11 +7,11 @@ void setup() {
   for (int i = 0; i < 150; i++) {
     flock.addBoid(new Boid(width/2,height/2));
   }
+  println("here");
 }
 
 void draw() {
   background(153,204,255);
-  println("some more stuff");
   flock.run();
 }
 
